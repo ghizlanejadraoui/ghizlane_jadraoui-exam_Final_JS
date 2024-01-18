@@ -12,13 +12,13 @@
   <!-- * section nav -->
   <section>
     <nav class="navbar navbar-expand-lg navbar-light  ">
-      <a class="navbar-brand" href="#">Lions Resto</a>
+      <a class="navbar-brand ms-4 fw-bold" href="#">Lions Resto</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
         aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <div class="collapse navbar-collapse justify-content-evenly" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
           <li class="nav-item active">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -76,7 +76,7 @@
     <h5 class="">ABOUT US</h5>
     <h1>LEARN MORE <span class="text-danger">ABOUT US</span> </h1>
     <br>
-    <div class="mainsc3 w-100 d-flex justify-content-between h-75">
+    <div class="mainsc3 w-100 d-flex justify-content-between h-100">
         <div class="leftsc3 ">
           <div class="div_left_sc3 bg-light w-75 text-center p-2   ">
             <h3>Book a Table</h3>
@@ -93,8 +93,11 @@
         </div>
         <div class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, culpa? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet mollitia vero doloremque illum dolores laudantium eos consequatur </div>
         <br>
-        <div class="">
-          <img width="340px" src="./public/img/about-2.jpg" alt="">
+        <div class="divbuttonsc3 ">
+          <!-- <img width="340px" src="./public/img/about-2.jpg" alt=""> -->
+          <button class="buttonsc3">
+            <svg viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="26px"><path d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z" fill="currentColor"></path></svg>
+          </button>
         </div>
       </div>
     </div>
@@ -138,6 +141,29 @@
      </div>
   </div>
   <!-- ************************************section nsitha kyna fvideo -->
+  <section class="sectionimage">
+    <div class="divblack bg-dark h-100 bg-opacity-50 text-light">
+      <div class="d-flex justify-content-evenly align-items-center h-100 text-center">
+        <div class="d-flex flex-column">
+          <h1 class="fw-bold">2540</h1>
+          <p>clients</p>
+        </div>
+        <div class="d-flex flex-column">
+          <h1 class="fw-bold">741</h1>
+          <p>Projects</p>
+        </div>
+        <div class="d-flex flex-column">
+          <h1 class="fw-bold">1234</h1>
+          <p>Hours of Support</p>
+        </div>
+        <div class="d-flex flex-column">
+          <h1 class="fw-bold">25</h1>
+          <p>Workers</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
   <!-- *section 5 -->
  <section class="p-5">
     <ul class="nav nav-pills mb-3 d-flex justify-content-center section5" id="pills-tab" role="tablist">
@@ -483,25 +509,25 @@
   </form>
 </section>
 <!-- * section 11 -->
-<footer class="d-flex flex-column justify-content-evenly align-items-center">
+<footer class="d-flex flex-column justify-content-evenly ">
   <section class="d-flex">
     <div class="d-flex petitform justify-content-between">
       <div class="d-flex divform ">
-        <i class="fa-solid fa-location-dot mt-2 ms-1 fs-4"></i>
+        <i class="fa-solid fa-location-dot  ms-1 fs-4"></i>
         <div class="d-flex flex-column">
           <h4>Our Address</h4>
           <p>6 Rue Ahmed El Mokri, Casablanca 20250</p>
         </div>
       </div>
       <div class="d-flex  divform">
-        <i class="fa-solid fa-phone mt-2 ms-1 fs-4"></i>
+        <i class="fa-solid fa-phone  ms-1 fs-4"></i>
         <div class="d-flex flex-column">
           <h4>Reservation</h4>
           <p>LTéléphone : 05223-98445</p>
         </div>
       </div>
       <div class="d-flex  divform">
-        <i class="fa-solid fa-clock mt-2 ms-1 fs-4"></i>
+        <i class="fa-solid fa-clock  ms-1 fs-4"></i>
         <div class="d-flex flex-column">
           <h4>Opening Hours</h4>
           <p>Horaires : 
@@ -510,10 +536,10 @@
         </div>
       </div>
       <div class="d-flex  divform">
-        <i class="fa-solid fa-mail-bulk mt-2 ms-1 fs-4"></i>
+        <i class="fa-solid fa-mail-bulk  ms-1 fs-4"></i>
         <div class="d-flex flex-column">
           <h4>Follow Us</h4>
-          <p class="d-flex fs-4">
+          <p class="d-flex fs-5">
             <i class="fa-brands fa-twitter"></i>
             <i class="fa-brands fa-facebook"></i>            
             <i class="fa-brands fa-instagram"></i>
@@ -523,10 +549,15 @@
       </div>
     </div>
   </section>
-  <p class="w-25">
+  <div class="">
+    <hr>
+  </div>
+  <div class="d-flex justify-content-center">  
+    <p class="w-25  text-center">
     &copy; Copyright <b>Yummy.</b>All Rights Reserved
     Desigred by <b>GhizlaneMade</b>
-  </p>
+  </p></div>
+
 </footer>
 
 

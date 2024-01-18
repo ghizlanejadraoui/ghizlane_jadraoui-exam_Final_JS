@@ -11909,7 +11909,7 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   width: 500px;
-  height: 590px;
+  height: 610px;
   position: relative;
 }
 
@@ -11919,9 +11919,55 @@ nav {
   top: 55vh;
 }
 
+.divbuttonsc3 {
+  background-image: url(../../../../public/img/about-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  width: 400px;
+  position: relative;
+}
+
+.buttonsc3 {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background: red;
+  transition: all 0.3s ease-in-out 0s;
+  box-shadow: red 0px 0px 0px 0px;
+  animation: 1.2s cubic-bezier(0.8, 0, 0, 1) 0s infinite normal none running pulse;
+  align-items: center;
+  border: 0;
+  position: absolute;
+  top: 90px;
+  left: 40%;
+}
+
+.buttonsc3:is(:hover, :focus) {
+  transform: scale(1.2);
+}
+
+@keyframes pulse {
+  100% {
+    box-shadow: 0 0 0 25px rgba(193, 244, 246, 0);
+  }
+}
 .section4 {
   height: 60vh;
   background-color: rgb(225, 225, 225);
+}
+
+.sectionimage {
+  height: 50vh;
+  background-image: url(../../../../public/img/about-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .section5 button {
@@ -11945,7 +11991,7 @@ nav {
 }
 
 .formule {
-  background-color: rgba(245, 245, 245, 0);
+  background-color: rgb(245, 245, 245);
   padding: 5px;
 }
 
@@ -11977,7 +12023,7 @@ nav {
 }
 
 .formsc10 {
-  box-shadow: 5px 5px 5px 5px rgb(238, 233, 233);
+  box-shadow: 5px 5px 5px 5px rgba(238, 233, 233, 0.451);
 }
 
 footer {
