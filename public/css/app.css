@@ -11975,6 +11975,27 @@ nav {
   color: black;
 }
 
+.section6 {
+  height: 70vh;
+  padding: 20px;
+  background-color: rgb(225, 225, 225);
+}
+
+.imgcarousel6 img {
+  width: 200px;
+  border: 5px solid white;
+  border-radius: 100%;
+}
+
+.line {
+  width: 5px;
+  height: 190px;
+}
+
+.section7 {
+  height: 100vh;
+}
+
 .section8 {
   height: 100vh;
   justify-content: space-evenly;
