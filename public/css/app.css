@@ -11975,10 +11975,15 @@ nav {
   color: black;
 }
 
+.nav-pills .nav-link.active {
+  background-color: rgba(191, 8, 8, 0.89) !important;
+}
+
 .section6 {
   height: 70vh;
   padding: 20px;
   background-color: rgb(225, 225, 225);
+  padding: 20px;
 }
 
 .imgcarousel6 img {
@@ -11992,8 +11997,10 @@ nav {
   height: 190px;
 }
 
-.section7 {
-  height: 100vh;
+.carousel-indicators [data-bs-target] {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
 }
 
 .section8 {
@@ -12065,6 +12072,51 @@ footer .divform {
   width: 300px;
   gap: 20px;
   padding: 5px 15px;
+}
+
+.section7 {
+  height: 70vh;
+}
+
+.section7 img {
+  border: 3px solid white;
+}
+
+.divforimg1 {
+  background-image: url("../../../../public/img/gallery/gallery-1.jpg");
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blackforimg {
+  width: 400px;
+  height: 400px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.314);
+  justify-content: end;
+  align-content: center;
+}
+
+.divforimg2 {
+  background-image: url("../../../../public/img/gallery/gallery-2.jpg");
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.divforimg3 {
+  background-image: url("../../../../public/img/gallery/gallery-3.jpg");
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.clickdib {
+  display: none;
 }
 
 /*# sourceMappingURL=app.css.map */
