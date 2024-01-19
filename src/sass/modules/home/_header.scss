@@ -155,6 +155,9 @@ nav {
     padding: 20px;
     background-color: rgb(225, 225, 225);
 }
+.section8 .col :hover{
+    box-shadow: 10px 10px 10px rgb(185, 183, 183);
+}
 // *section 9
 .section9{
     height: 100vh;
@@ -242,7 +245,7 @@ footer .divform{
     width: 400px;
     height: 400px;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
 }
 .divforimg3{
     background-image: url("../../../../public/img/gallery/gallery-3.jpg");
@@ -251,6 +254,12 @@ footer .divform{
     background-size: cover;
     background-repeat: no-repeat;
 }
-.clickdib{
-    display: none;
+.section7 .carousel-indicators [data-bs-target]{
+background-color: rgba(126, 6, 6, 0.897) !important;
+}
+.section7 .carousel-item{
+    backface-visibility: visible;
+}
+.section7 .carousel-item::before :hover{
+   box-shadow: 10px 10px 10px rgb(125, 122, 122);
 }
